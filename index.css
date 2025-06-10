@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(#defdd1, #b4f5a3);
+}
+
+
+
+.turf-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.turf-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-book {
+    animation: pulse 1.5s infinite;
+}
+
+.images{
+    height: 43%!important;
+     
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+footer img {
+    height: 70px;
+}
